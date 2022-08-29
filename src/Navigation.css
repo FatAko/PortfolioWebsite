@@ -50,7 +50,7 @@
 
 #menuToggle {
     position: relative;
-    margin-top: 3rem;
+    margin-top: -1rem;
     margin-left: 2rem;
     z-index: 1;
     -webkit-user-select: none;
@@ -142,7 +142,14 @@
     .header {
         display: none;
     }
-
+    #menuToggle {
+        position: relative;
+        margin-top: 3rem;
+        margin-left: 2rem;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
     #menuToggle span {
         display: block;
     }

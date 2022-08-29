@@ -31,7 +31,7 @@
 #scrollimg {
     position: relative;
     height: 1.3rem;
-    margin-top: 7rem;
+    margin-top: 5rem;
     margin-left: 60rem;
 
     animation: pulse 8s infinite;
@@ -57,7 +57,6 @@
   .Image img {
     height: 30rem;
     object-fit: cover;
-    /*width: 50px;*/
     height: 40rem;
     width: 85%;
     border-radius: 15px;
@@ -65,10 +64,10 @@
     box-shadow: 6px 6px 30px;
     margin-right: auto;
 }
-    
+
 .Image {
   transform: translateY(10px);
-  margin-top: -5rem;
+  margin-top: -7rem;
 }
 .Name p {
     color: white;
