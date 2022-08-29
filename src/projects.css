@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Nunito:wght@200;400&family=Playfair+Display&family=Questrial&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@100;400&display=swap');
+.Projects p {
+    color: white;
+    font-family: "Playfair Display";
+    font-size: 90px;
+    text-shadow: 3px 3px 20px black;
+    scroll-behavior: smooth;
+    position: relative;
+    margin-left: 9rem;
+    margin-top: 11rem;
+}
+.proimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.image {
+    position: relative;
+}
+.image__img {
+    display: block;
+    width: 30rem;
+    border-radius: 15px;
+    box-shadow: 6px 6px 30px;
+    margin: 2rem;
+}
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: "Maven Pro";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(2px);
+}
+
+.image__title {
+    color: white;
+    font-family: "Maven Pro";
+    font-size: 25px;
+}
+.image__description {
+    color: white;
+    font-family: "Maven Pro";
+    font-size: 20px;
+}
+.linkImg {
+    width: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.linkImg:hover {
+    filter: drop-shadow(5px 5px 5px #222);
+}
+.placeholder {
+    padding-top: 10rem;
+}
+@media only screen and (max-width: 1000px) {
+    .Projects p {
+        color: white;
+        font-family: "Playfair Display";
+        font-size: 60px;
+        text-shadow: 3px 3px 20px black;
+        scroll-behavior: smooth;
+        position: relative;
+        margin-left: 3rem;
+        margin-top: 6rem;
+    }
+    .proimg {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+    
+    .image {
+        position: relative;
+    }
+    .image__img {
+        display: block;
+        width: 23rem;
+        border-radius: 15px;
+        box-shadow: 6px 6px 30px;
+        margin: 2rem;
+    }
+    .image__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: white;
+        font-family: "Maven Pro";
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.25s;
+    }
+    
+    .image__overlay:hover {
+        opacity: 1;
+    }
+    
+    .image__overlay--blur {
+        backdrop-filter: blur(2px);
+    }
+    
+    .image__title {
+        color: white;
+        font-family: "Maven Pro";
+        font-size: 25px;
+    }
+    .image__description {
+        color: white;
+        font-family: "Maven Pro";
+        font-size: 20px;
+    }
+    .linkImg {
+        width: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "header": [
+        {
+            "0": "Dies ist eine Überschrift"
+        },
+        {
+            "1":"Dies ist eine zweite Überschrift"
+        },
+        {
+            "2": "Dies ist eine dritte Überschrift"
+        },
+        {
+            "3": "Dies ist eine vierte Überschrift"
+        }
+    ],
+    "text": [
+        {
+            "0": "Dies ist eine Überschrift"
+        },
+        {
+            "1":"Dies ist eine zweite Überschrift"
+        },
+        {
+            "2": "Dies ist eine dritte Überschrift"
+        },
+        {
+            "3": "Dies ist eine vierte Überschrift"
+        }
+    ],
+    "link": [
+        {
+            "0": "#"
+        },
+        {
+            "1":"#"
+        },
+        {
+            "2": "#"
+        },
+        {
+            "3": "#"
+        }
+    ],
+    "img": [
+        {
+            "0": "/projectImages/img2.jpg"
+        },
+        {
+            "1":"/projectImages/img3.jpeg"
+        },
+        {
+            "2": "/projectImages/img4.jpeg"
+        },
+        {
+            "3": "/projectImages/img5.jpeg"
+        }
+    ]
+}

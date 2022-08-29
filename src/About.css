@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Nunito:wght@200;400&family=Playfair+Display&family=Questrial&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@100;400&display=swap');
+.About p {
+    color: white;
+    font-family: "Playfair Display";
+    font-size: 90px;
+    text-shadow: 3px 3px 20px black;
+    scroll-behavior: smooth;
+    position: relative;
+    margin-left: 9rem;
+    margin-top: 20rem;
+}
+.AboutMeText p {
+    color: white;
+    font-family: "Maven Pro";
+    font-size: 22px;
+    margin-top: 0rem;
+    width: 50%;
+}
+.AboutMeImage img {
+    width: 30rem;
+    margin-left: 60rem;
+    margin-top: -23rem;
+    box-shadow: 6px 6px 30px;
+}
+.Social img {
+    height: 3rem;
+    position: relative;
+    margin: 1.4rem;
+}
+.Social img:hover {
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.Social {
+    margin-left: 8rem;
+    margin-top: 5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .About p {
+        color: white;
+        font-family: "Playfair Display";
+        font-size: 60px;
+        text-shadow: 3px 3px 20px black;
+        scroll-behavior: smooth;
+        position: relative;
+        margin-left: 3rem;
+        margin-top: 15rem;
+    }
+    .AboutMeText p {
+        color: white;
+        font-family: "Maven Pro";
+        font-size: 17px;
+        margin-top: 0rem;
+        width: 80%;
+        display: block;
+    }
+    .AboutMeImage img {
+        width: 30rem;
+        margin-left: 60rem;
+        margin-top: -23rem;
+        box-shadow: 6px 6px 30px;
+    }
+    .Social img {
+        height: 2rem;
+        position: relative;
+        margin: 1rem;
+    }
+    .Social img:hover {
+        filter: drop-shadow(5px 5px 5px black);
+    }
+    
+    .Social {
+        margin-left: 2rem;
+        margin-top: 5rem;
+    }
+}

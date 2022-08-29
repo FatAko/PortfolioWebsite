@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Nunito:wght@200;400&family=Playfair+Display&family=Questrial&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@100;400&display=swap');
+.Image img {
+    height: 37rem;
+    width: 78rem;
+    border-radius: 15px;
+    margin: 13.5rem;
+    box-shadow: 6px 6px 30px;
+}
+.Name p {
+    color: white;
+    font-size: 130px;
+    margin-top: -48rem;
+    margin-left: 74rem;
+    font-family: "Playfair Display";
+    text-shadow: 3px 3px 20px black;
+    scroll-behavior: smooth;
+    position: relative;
+}
+.Signature img {
+    height: 20rem;
+    position: absolute;
+    margin-top: -25rem;
+    margin-left: 5rem;
+}
+.Description p {
+    color: white;
+    font-size: 22px;
+    font-family: "Maven Pro";
+    text-shadow: 3px 3px 20px black;
+    scroll-behavior: smooth;
+    position: relative;
+    margin-top: -4rem;
+    margin-left: 70rem;
+}
+#scrollimg {
+    position: relative;
+    height: 1.3rem;
+    margin-top: 7rem;
+    margin-left: 60rem;
+
+    animation: pulse 8s infinite;
+    display: table;
+    animation-direction: alternate;
+     -webkit-animation-name: pulse;
+     animation-name: pulse;
+}
+      
+  @keyframes pulse {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }
+
+@media only screen and (max-width: 1000px)  {
+  .Image img {
+    height: 30rem;
+    object-fit: cover;
+    width: 50px;
+    height: 40rem;
+    width: 85%;
+    border-radius: 15px;
+    margin-left: 2rem;
+    box-shadow: 6px 6px 30px;
+}
+.Image {
+  transform: translateY(10px);
+  margin-top: -5rem;
+}
+.Name p {
+    color: white;
+    font-size: 85px;
+    margin-top: -48rem;
+    margin-left: 3rem;
+    font-family: "Playfair Display";
+    text-shadow: 3px 3px 20px black;
+    scroll-behavior: smooth;
+    position: relative;
+}
+.Signature img {
+    height: 20rem;
+    position: absolute;
+    margin-top: -25rem;
+    margin-left: 5rem;
+}
+.Description p {
+    color: white;
+    font-size: 17px;
+    font-family: "Maven Pro";
+    text-shadow: 3px 3px 20px black;
+    scroll-behavior: smooth;
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+#scrollimg {
+    position: relative;
+    height: 1.3rem;
+    margin-top: 7rem;
+    margin-left: 5rem;
+
+    animation: pulse 8s infinite;
+    display: table;
+    animation-direction: alternate;
+     -webkit-animation-name: pulse;
+     animation-name: pulse;
+}
+}
