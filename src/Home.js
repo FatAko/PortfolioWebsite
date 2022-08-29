@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import './Home.css';
 import image from  './images/img1.jpg'
-import signature from './images/signature.png'
 import scroll from './images/scroll.png'
 
 
@@ -21,13 +20,8 @@ function Home() {
                 <div class="Name">
                     <p>Fatih<br/>Akoglan</p>
                 </div>
-                {/* 
-                <div class="Signature">
-                    <img src={signature}/>
-                </div>
-                */}
                 <div class="Description">
-                    <p>web developer from british<br/>columbia, canada</p>
+                    <p><br/>computer scientist from <br/> germany, aachen</p>
                 </div>
                 <div class="Scroll">
                     <img id='scrollimg' src={scroll}/>

@@ -68,8 +68,8 @@
 
 #menuToggle span {
     display: none;
-    width: 53px;
-    height: 10px;
+    width: 37px;
+    height: 5px;
     margin-bottom: 5px;
     position: relative;
 
@@ -107,7 +107,7 @@
 #menu {
     position: absolute;
     background-color: white;
-    width: 160px;
+    width: 90px;
     margin: -100px 0 0 -50px;
     padding: 40px;
     padding-top: 9rem;
@@ -119,8 +119,8 @@
 }
 #menu li {
     padding: 10px 0px;
-    font-family: Arial;
-    font-size: 34px;
+    font-family: "Roboto";
+    font-size: 20px;
 }
 #menuToggle input:checked ~ ul {
     transform: none;

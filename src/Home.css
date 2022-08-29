@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Nunito:wght@200;400&family=Playfair+Display&family=Questrial&family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto:wght@100;400&display=swap');
+
 .Image img {
     height: 37rem;
     width: 78rem;
@@ -16,12 +17,7 @@
     scroll-behavior: smooth;
     position: relative;
 }
-.Signature img {
-    height: 20rem;
-    position: absolute;
-    margin-top: -25rem;
-    margin-left: 5rem;
-}
+
 .Description p {
     color: white;
     font-size: 22px;
@@ -61,13 +57,15 @@
   .Image img {
     height: 30rem;
     object-fit: cover;
-    width: 50px;
+    /*width: 50px;*/
     height: 40rem;
     width: 85%;
     border-radius: 15px;
     margin-left: 2rem;
     box-shadow: 6px 6px 30px;
+    margin-right: auto;
 }
+    
 .Image {
   transform: translateY(10px);
   margin-top: -5rem;
