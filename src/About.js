@@ -31,7 +31,7 @@ function About() {
             <div className="Social">
                         <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/fatih-akoglan-741689251/'><img src={linkedin}/></a>
                         <a target='_blank' rel='noreferrer' href='https://www.instagram.com/fatih.akgln/'><img src={instagram}/></a>
-                        <a href='#'><img src={youtube}/></a>
+                        {/*<a href='#'><img src={youtube}/></a>*/}
                         <a target='_blank' rel='noreferrer' href='https://github.com/FatAko'><img src={github}/></a>
                     </div>
         </section>

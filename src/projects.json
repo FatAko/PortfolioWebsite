@@ -5,12 +5,6 @@
         },
         {
             "1":"My Website"
-        },
-        {
-            "2": "Dies ist eine dritte Überschrift"
-        },
-        {
-            "3": "Dies ist eine vierte Überschrift"
         }
     ],
     "text": [
@@ -19,26 +13,14 @@
         },
         {
             "1":""
-        },
-        {
-            "2": "Dies ist eine dritte Überschrift"
-        },
-        {
-            "3": "Dies ist eine vierte Überschrift"
         }
     ],
     "link": [
         {
-            "0": "http://sorting.bplaced.net"
+            "0": "http://sorting.fatihakoglan.de"
         },
         {
             "1":"#"
-        },
-        {
-            "2": ""
-        },
-        {
-            "3": "#"
         }
     ],
     "img": [
@@ -47,12 +29,6 @@
         },
         {
             "1":"/projectImages/websiteScreen.jpg"
-        },
-        {
-            "2": "/projectImages/img4.jpeg"
-        },
-        {
-            "3": "/projectImages/img5.jpeg"
         }
     ],
     "git": [
@@ -61,12 +37,6 @@
         },
         {
             "1":"https://github.com/FatAko/PortfolioWebsite"
-        },
-        {
-            "2": "#"
-        },
-        {
-            "3": "#"
         }
     ]
 }
