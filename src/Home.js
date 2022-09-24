@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './Home.css';
-import image from  './images/img1.jpg'
+//import image from  './images/img1.jpg'
+import image from  './images/background5.jpg'
 import scroll from './images/scroll.png'
 
 

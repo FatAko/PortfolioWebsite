@@ -10,7 +10,7 @@ function returnImages() {
                 <img class="image__img" src={json.img[i][i]}/>
                 <div className='image__overlay image__overlay--blur'>
                     <div className='image__title'>{json.header[i][i]}</div>
-                    <a className='image__link' href={json.link[i][i]}><img class="linkImg" src={linkImg}/></a>
+                    <a className='image__link' target='_blank' rel='noreferrer' href={json.link[i][i]}><img class="linkImg" src={linkImg}/></a>
                     <div class="image__description">{json.text[i][i]}</div>
                 </div>
             </div>
