@@ -62,9 +62,19 @@
 .linkImg {
     width: 2rem;
     margin-top: 2rem;
+    margin-right: 1rem;
     margin-bottom: 1rem;
 }
 .linkImg:hover {
+    filter: drop-shadow(5px 5px 5px #222);
+}
+.gitlinkImg {
+    width: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.gitlinkImg:hover {
     filter: drop-shadow(5px 5px 5px #222);
 }
 .placeholder {
