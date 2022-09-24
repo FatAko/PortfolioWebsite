@@ -11,7 +11,7 @@ function Navigation() {
                 <li><a href="#">Home</a></li>
                 <li><a href="#About">About</a></li>
                 <li><a href="#Projects">Portfolio</a></li>
-                <li><a href="mailto:fatihkeremakoglan@hotmail.com">Contact</a></li>
+                <li><a href="mailto:contact@fatihakoglan.com">Contact</a></li>
             </ul>
         </div>
         <div id="menuToggle">
